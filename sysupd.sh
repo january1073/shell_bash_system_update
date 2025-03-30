@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "~~~~~~ SYSTEM UPDATE v1.5 ~~~~~~"
+echo "~~~~~~ SYSTEM UPDATE v1.6 ~~~~~~"
 cowsay -f eyes "Hi, $(whoami)! Let's get this system up to scratch..."
 sudo apt update
-sudo apt upgrade
+sudo apt full-upgrade
 sudo apt autoremove -y
 sudo apt autoclean
 echo
