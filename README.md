@@ -1,1 +1,6 @@
-# shell_bash_system_update
+# system_update_bash_script
+Let's get this system up to scratch...
+
+Required: cowsay
+
+Run: `./sysupd.sh`
